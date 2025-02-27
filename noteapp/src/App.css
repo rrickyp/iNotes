@@ -1,0 +1,202 @@
+#title {
+  text-align: center;
+  vertical-align: baseline;
+  font-size:50px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+#logout{
+  /* padding-left: 20px; */
+  margin-left: 800px;
+  position: fixed;
+  margin-top:3ex;
+}
+.box{
+  font-size: 30px;
+  outline: none;
+  /* font-size: 15px; */
+  color: #222;
+border:none;
+  width: 90%;
+  /* display: inline-block; */
+  background: transparent;
+  letter-spacing: 1px;
+  padding:0.5em 1em 0.5em 0.5em;
+  margin-left:3ex;
+
+}
+#signin{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-weight: bold;
+  outline: none;
+  /* font-size: 15px; */
+  color: #222;
+  border:none;
+  width: 90px;
+  height:30px;
+  /* display: inline-block; */
+  background: transparent;
+  margin-top: 1ex;
+  margin-left:0ex;
+  border-style: solid;
+  border-radius: 20px;
+
+
+}
+.input{
+  padding:5px, 5px, 5px, 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  /* margin: auto; */
+}
+/* .box{
+  padding:1em 1em;
+  text-align: center;
+} */
+#loginPage{
+  text-align: center;
+  padding:200px;
+
+}
+#profile{
+  font-weight: bold;
+}
+#navBar{
+  /* display: inline-block; */
+  margin-right: 5em;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#heading {
+  width: 60em;
+  background-color: #ffffff;
+  /* border-style: solid; */
+  border-bottom: none;
+  margin-left: 231px;
+}
+#content {
+  float: left;
+  width: 45em;
+  height: 40em;
+  border-style: solid;
+  border-left: none;
+  /* margin-left: 100px; */
+
+}
+
+#category {
+  float: left;
+  width: 15em;
+  height: 40em;
+  background-color: #f5f6c3;
+  border-style: solid;
+  margin-left: 230px;
+
+  /* border-right: none; */
+}
+#newButton{
+  position: absolute;
+  padding: 2ex 1ex;
+  right: 22em;
+  bottom: 3em;
+  /* border-radius: 100%;
+   */
+} 
+#signin:hover{
+  box-shadow:rgba(121, 120, 120, 0.35) 0px 5px 15px;
+}
+#search{
+  margin-top: 1em;
+  margin-left: 1em;
+}
+#subtitle{
+  margin-top: 1em;
+  margin-left: 1em;
+}
+.lists{
+  margin-top: 1em;
+  width:150px;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+.lists:hover{
+  box-shadow:rgba(121, 120, 120, 0.35) 0px 5px 15px;
+
+}
+#subtop{
+  margin-top: 1em;
+  margin-left: 2.5em;
+  font-size: 14px;
+}
+#delete{
+  margin-left: 28em;
+}
+#titles {
+  margin-top: 1em;
+  margin-left: 2em;
+
+  /* width: 200px;
+  height:300px; */
+}
+#contentTitle{
+  width: 650px;
+  height:50px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0.6em;
+}
+#savebtn{
+  margin-left: 45em;
+}
+#cancelbtn{
+  margin-left: 40em;
+  position: absolute;
+
+}
+#contentcontent {
+  font-size: 17px;
+  margin-top: 2em;
+  margin-left: 2em;
+  width: 650px;
+  height:400px;
+  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

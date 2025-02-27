@@ -1,0 +1,5 @@
+noteapp/node_modules/
+noteapp/package-lock.json
+NoteService/node_modules/
+NoteService/package-lock.json
+NoteService/data/
